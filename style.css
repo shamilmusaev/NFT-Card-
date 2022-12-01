@@ -29,13 +29,14 @@ body {
     justify-content: center;
     height: 310px;
     align-items: center;
+    position: relative;
     
 
 }
 
-.card-img {
-    background: url(./images/image-equilibrium.jpg);
-    background-size: cover;
+.card-img img{
+
+
     background-repeat: no-repeat;
     width: 260px;
     height: 270px;
@@ -47,10 +48,33 @@ body {
     
 }
 
-.card-img svg:hover{
-  filter:sepia(2.2)
+
+
+.card-icon-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+    border-radius: 10px;
+    width: 260px;
+    height: 270px;
+    
 }
 
+.card-icon-view img{
+width: 60px;
+height: 60px;
+color:white;
+}
+
+.card-icon-view:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
 
 
 

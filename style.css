@@ -1,0 +1,160 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    height: 530px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+
+
+
+
+.card-img-container {
+    display: flex;
+    justify-content: center;
+    height: 310px;
+    align-items: center;
+    
+
+}
+
+.card-img {
+    background: url(./images/image-equilibrium.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 270px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.card-img svg:hover{
+  filter:sepia(2.2)
+}
+
+
+
+
+
+
+
+
+
+
+.card-name {
+    color: white;
+    margin: 0px 20px;
+}
+
+.card-name h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card-name h2:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.card-description {
+    color: white;
+    margin: 0px 20px;
+}
+
+.card-description p {
+    font-size: 14px;
+    font-weight: 100;
+    color: hsl(215, 51%, 70%);
+    line-height: 1.6;
+}
+
+.nft-price {
+    font-size: 14px;
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nft-price svg {
+    margin-right: 5px;
+}
+
+.nft-daysleft {
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nft-daysleft svg {
+    margin-right: 5px;
+}
+
+.card-nft-info {
+    color: white;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-author-info {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    margin: 0px 20px;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.card-author-info img {
+    width: 30px;
+    height: 30px;
+}
+
+.card-author-info p {
+    font-size: 12px;
+    font-weight: 100;
+    margin-left: 15px;
+    color: hsl(215, 51%, 70%);
+}
+
+.author-name{
+    color: white;
+}
+
+.author-name:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+
+hr {
+    width: 250px;
+    margin-top: 20px;
+    background-color: hsl(215deg 19% 36%);
+    height: 1px;
+    border: none;
+
+}
